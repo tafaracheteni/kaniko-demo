@@ -10,4 +10,4 @@ COPY --from=build /src/public /usr/share/nginx/html
 EXPOSE 80
 #FROM neuromation/neuro-extras:21.3.19
 #RUN wget https://raw.githubusercontent.com/neuro-inc/platform-client-python/master/build-tools/garbage-files-generator.py && \
-    python3 garbage-files-generator.py 1 7Gb
+#    python3 garbage-files-generator.py 1 7Gb
